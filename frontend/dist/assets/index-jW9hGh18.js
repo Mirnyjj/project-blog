@@ -115,7 +115,7 @@ Error generating stack: `+o.message+`
 `,Mx=G.div`
     font-size: 18px;
     font-weight: bold;
-`,Ux=({className:e})=>{const t=ri(),n=cn(),r=Ye(Mn),i=Ye(Cx),o=()=>{n(Nx()),sessionStorage.removeItem("userData")},l=Zr([be.ADMIN],r);return x.jsxs("div",{className:e,children:[x.jsx(sd,{children:r===be.GUEST?x.jsx(Ut,{children:x.jsx(zr,{to:"/login",children:"Войти"})}):x.jsxs(x.Fragment,{children:[x.jsx(Mx,{children:i}),x.jsx(we,{id:"fa-sign-out",margin:"0 0 0 10px",onClick:()=>o(session)})]})}),x.jsxs(sd,{children:[x.jsx(we,{id:"fa-backward",margin:"10px 0 0 0",onClick:()=>t(-1)}),l&&x.jsxs(x.Fragment,{children:[x.jsx(zr,{to:"/post",children:x.jsx(we,{id:"fa-file-text-o",margin:"10px 0 0 15px"})}),x.jsx(zr,{to:"/users",children:x.jsx(we,{id:"fa-users",margin:"10px 0 0 15px"})})]})]})]})},Vx=G(Ux)`
+`,Ux=({className:e})=>{const t=ri(),n=cn(),r=Ye(Mn),i=Ye(Cx),o=()=>{n(Nx()),sessionStorage.removeItem("userData")},l=Zr([be.ADMIN],r);return x.jsxs("div",{className:e,children:[x.jsx(sd,{children:r===be.GUEST?x.jsx(Ut,{children:x.jsx(zr,{to:"/login",children:"Войти"})}):x.jsxs(x.Fragment,{children:[x.jsx(Mx,{children:i}),x.jsx(we,{id:"fa-sign-out",margin:"0 0 0 10px",onClick:o})]})}),x.jsxs(sd,{children:[x.jsx(we,{id:"fa-backward",margin:"10px 0 0 0",onClick:()=>t(-1)}),l&&x.jsxs(x.Fragment,{children:[x.jsx(zr,{to:"/post",children:x.jsx(we,{id:"fa-file-text-o",margin:"10px 0 0 15px"})}),x.jsx(zr,{to:"/users",children:x.jsx(we,{id:"fa-users",margin:"10px 0 0 15px"})})]})]})]})},Vx=G(Ux)`
 
 `,bx=G.div`
   font-style: italic;

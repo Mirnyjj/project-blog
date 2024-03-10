@@ -49,7 +49,7 @@ const ControlPanelConteiner = ({className}) => {
                         </UserName>
                             <Icon id="fa-sign-out" 
                                 margin="0 0 0 10px" 
-                                onClick={() => onLogout(session)}
+                                onClick={onLogout}
                             />
 
                     </>
